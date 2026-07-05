@@ -1,8 +1,10 @@
-from app.ai.rag import ask
+from app.agents.ecommerce_agent import EcommerceAgent
+
+agent = EcommerceAgent()
 
 
 class ChatService:
 
     @staticmethod
     def ask_question(question: str) -> str:
-        return ask(question)
+        return agent.invoke(question)

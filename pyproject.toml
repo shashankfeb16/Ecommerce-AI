@@ -12,6 +12,7 @@ dependencies = [
     "langchain-google-genai>=4.2.6",
     "langchain-qdrant>=1.1.0",
     "langchain-text-splitters>=1.1.2",
+    "langgraph>=1.2.7",
     "pydantic>=2.13.4",
     "pydantic-settings>=2.14.2",
     "pypdf>=6.14.2",
